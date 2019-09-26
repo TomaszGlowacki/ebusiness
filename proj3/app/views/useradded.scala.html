@@ -1,0 +1,24 @@
+
+@(Useradd: String)
+
+
+@import helper._
+@*
+
+@request.flash.get("success").map { key =>
+   @request.messages(key)
+}
+*@
+
+@main("User Added") {
+
+	<h1>User Added</h1>
+	<p>
+		The @Useradd has been added!
+	</p>
+
+	<a href="/">
+		Return
+	</a>
+
+}

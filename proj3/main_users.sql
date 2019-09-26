@@ -1,0 +1,5 @@
+INSERT INTO users (user_id, firstname, middlename, lastname, email, password, address, phone, type, created_at) VALUES (1, 'tom', 'ktk', 'fgj', 'fgj', 'fhj', null, null, null, null);
+INSERT INTO users (user_id, firstname, middlename, lastname, email, password, address, phone, type, created_at) VALUES (2, 'qwe', 'asd', 'zxc', ' ggfdh', 'fgh', null, null, null, null);
+INSERT INTO users (user_id, firstname, middlename, lastname, email, password, address, phone, type, created_at) VALUES (3, 'ert', 'rtuy', 'tyu', 'fgh', 'jkgjk', null, null, null, null);
+INSERT INTO users (user_id, firstname, middlename, lastname, email, password, address, phone, type, created_at) VALUES (4, 'dfgfhfg', 'hfghfghj', 'hjghj', 'ghjghjg', 'ghj', null, null, null, null);
+INSERT INTO users (user_id, firstname, middlename, lastname, email, password, address, phone, type, created_at) VALUES (5, 'gfg', 'hfghfg', 'hfghfg', 'fhfgh', 'fhfgh', null, null, null, null);

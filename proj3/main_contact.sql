@@ -1,0 +1,1 @@
+INSERT INTO contact (contact_id, firstname, middlename, lastname, email, message, created_at) VALUES (1, 'fhfgh', 'fghfh', 'jgjf', 'fjfhg', 'fghfgh', null);

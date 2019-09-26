@@ -1,0 +1,20 @@
+
+@(Error: String)(implicit request: MessagesRequestHeader)
+
+
+@import helper._
+@*
+
+@request.flash.get("success").map { key =>
+   @request.messages(key)
+}
+*@
+
+@main("Category") {
+	<h1> Error !!! </h1>
+	<p>
+		The @Error appears!
+	</p>
+
+
+}

@@ -1,0 +1,30 @@
+
+@(Contact: Form[CreateContactForm])(implicit request: MessagesRequestHeader)
+
+
+@import helper._
+@*
+
+@request.flash.get("success").map { key =>
+   @request.messages(key)
+}
+*@
+
+@main("Opinion") {
+	@form(routes.ContactController.addContact()) {
+		@inputText(Contact("firstname"))
+		@inputText(Contact("middlename"))
+		@inputText(Contact("lastname"))
+		@textarea(Contact("message"))
+		@inputText(Contact("email"))
+
+
+		@CSRF.formField
+
+		<div class="buttons">
+			<input type="submit" value="Add Opinion"/>
+		</div>
+	}
+
+
+}

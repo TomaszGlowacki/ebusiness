@@ -1,0 +1,4 @@
+[warn] D:\work\ebusines\proj3\app\models\ProductRepository.scala:6:15: imported `CategoryRepository' is permanently hidden by definition of class CategoryRepository in package models
+[warn] import models.CategoryRepository
+[warn]               ^
+[warn] one warning found

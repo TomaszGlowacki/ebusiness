@@ -1,0 +1,41 @@
+
+@(Order: Form[CreateOrderForm], users: Seq[User], products: Seq[Product])(implicit request: MessagesRequestHeader)
+
+
+@import helper._
+@*
+
+@request.flash.get("success").map { key =>
+   @request.messages(key)
+}
+*@
+
+@main("Order") {
+	@form(routes.OrderController.addOrder()) {
+		user:
+		<select name="user_id" id="user_id">
+		@for(user <- users){
+			<option value="@user.user_id">@user.firstname @user.lastname</option>
+		}
+		</select>
+
+		<select name="product_id" id="product_id">
+		@for(product <- products){
+			<option value="@product.id">@product.name</option>
+		}
+		</select>
+
+		@inputText(Order("quantity"))
+
+		@inputText(Order("shiping_address"))
+
+
+		@CSRF.formField
+
+		<div class="buttons">
+			<input type="submit" value="Order"/>
+		</div>
+	}
+
+
+}

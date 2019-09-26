@@ -1,0 +1,24 @@
+
+@(categoryadded: String)
+
+
+@import helper._
+@*
+
+@request.flash.get("success").map { key =>
+   @request.messages(key)
+}
+*@
+
+@main("Category Added") {
+
+	<h1>Categorry Added</h1>
+	<p>
+		The @categoryadded has been added!
+	</p>
+
+	<a href="/">
+		Return
+	</a>
+
+}

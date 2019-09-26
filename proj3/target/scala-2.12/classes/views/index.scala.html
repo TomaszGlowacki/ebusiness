@@ -1,0 +1,51 @@
+@(product: Form[CreateProductForm],category: Seq[Category])(implicit request: MessagesRequestHeader)
+
+@import helper._
+
+@request.flash.get("success").map { key =>
+   @request.messages(key)
+}
+
+@main("Welcome to Ebiznes") {
+	<a href="productslist">
+		show Products
+	</a>
+			<br />
+	<a href="productform">
+		add Products
+	</a>
+		<br />
+	<a href="categorylist">
+		show categories
+	</a>
+				<br />
+	<a href="categoryform">
+		add Category
+	</a>
+	<br/>
+	<a href="userlist">
+		show users
+	</a>
+		<br />
+	<a href="userform">
+		add user
+	</a>
+
+		<br/>
+	<a href="contactlist">
+		show opinions
+	</a>
+		<br />
+	<a href="contactform">
+		add opinion
+	</a>
+
+		<br/>
+	<a href="orderlist">
+		show orders
+	</a>
+		<br />
+	<a href="orderform">
+		add order
+	</a>
+}

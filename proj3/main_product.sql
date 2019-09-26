@@ -1,0 +1,4 @@
+INSERT INTO product (product_id, name, description, image, category_id, quantity, brand, model, configuration, price, featured, created_at) VALUES (1, 'qwe', 'sdf', null, 2, 2, null, null, null, 23, null, null);
+INSERT INTO product (product_id, name, description, image, category_id, quantity, brand, model, configuration, price, featured, created_at) VALUES (2, 'cvb', 'cvb', null, 1, 3, null, null, null, 34, null, null);
+INSERT INTO product (product_id, name, description, image, category_id, quantity, brand, model, configuration, price, featured, created_at) VALUES (3, 'nowyprodukt', 'tak to nowe', null, 1, 2, null, null, null, 12, null, null);
+INSERT INTO product (product_id, name, description, image, category_id, quantity, brand, model, configuration, price, featured, created_at) VALUES (4, 'cat', 'cvb', null, 5, 2, null, null, null, 12, null, null);

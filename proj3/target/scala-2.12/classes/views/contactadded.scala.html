@@ -1,0 +1,24 @@
+
+@(Contactadd: String)
+
+
+@import helper._
+@*
+
+@request.flash.get("success").map { key =>
+   @request.messages(key)
+}
+*@
+
+@main("Opinion Added") {
+
+	<h1>Contact Added</h1>
+	<p>
+		The @Contactadd , thank you for your opinion!
+	</p>
+
+	<a href="/">
+		Return
+	</a>
+
+}

@@ -1,0 +1,9 @@
+2019-09-23 17:44:08,848 [WARN] from slick.basic.DatabaseConfig in play-dev-mode-akka.actor.default-dispatcher-3 - Use `profile` instead of `driver`. The latter is deprecated since Slick 3.2 and will be removed.
+2019-09-23 17:44:09,518 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-09-23 17:44:09,524 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)
+2019-09-23 18:11:40,825 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=23m31s730ms804µs500ns).

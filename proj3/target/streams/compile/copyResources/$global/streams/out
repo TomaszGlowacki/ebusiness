@@ -1,0 +1,9 @@
+[debug] Copy resource mappings: 
+[debug] 	(D:\work\ebusines\proj3\conf\.DS_Store,D:\work\ebusines\proj3\target\scala-2.12\classes\.DS_Store)
+[debug] 	(D:\work\ebusines\proj3\conf\application.conf,D:\work\ebusines\proj3\target\scala-2.12\classes\application.conf)
+[debug] 	(D:\work\ebusines\proj3\conf\evolutions,D:\work\ebusines\proj3\target\scala-2.12\classes\evolutions)
+[debug] 	(D:\work\ebusines\proj3\conf\logback.xml,D:\work\ebusines\proj3\target\scala-2.12\classes\logback.xml)
+[debug] 	(D:\work\ebusines\proj3\conf\messages,D:\work\ebusines\proj3\target\scala-2.12\classes\messages)
+[debug] 	(D:\work\ebusines\proj3\conf\routes,D:\work\ebusines\proj3\target\scala-2.12\classes\routes)
+[debug] 	(D:\work\ebusines\proj3\conf\evolutions\default,D:\work\ebusines\proj3\target\scala-2.12\classes\evolutions\default)
+[debug] 	(D:\work\ebusines\proj3\conf\evolutions\default\1.sql,D:\work\ebusines\proj3\target\scala-2.12\classes\evolutions\default\1.sql)
